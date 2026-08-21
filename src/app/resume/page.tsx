@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Resume — Darrian Redford",
+  title: "Resume | Darrian Redford",
 };
 
 export default function ResumePage() {
@@ -37,9 +37,9 @@ export default function ResumePage() {
           className="h-[calc(100vh-20rem)] min-h-[600px] w-full"
         >
           <p className="p-6 text-sm text-[var(--text-muted)]">
-            Your browser can&apos;t preview PDFs inline —{" "}
+            Your browser can&apos;t preview PDFs inline.{" "}
             <a href="/Darrian_Redford_Resume.pdf" className="text-[var(--cyan)] underline">
-              download it instead
+              Download it instead
             </a>
             .
           </p>

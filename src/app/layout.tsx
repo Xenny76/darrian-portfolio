@@ -15,7 +15,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Darrian Redford — Software Engineer",
+  title: "Darrian Redford | Software Engineer",
   description:
     "Software engineer building backend systems, APIs, and full-stack tools in C#/.NET, Java, and JavaScript.",
 };

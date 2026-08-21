@@ -67,7 +67,7 @@ export default function Hero() {
           </span>
         </h1>
         <p className="max-w-xl text-lg text-[var(--text-muted)]">
-          Full-stack engineer with a backend lean — C#/.NET, Java, and JavaScript across
+          Full-stack engineer with a backend lean. Mostly C#/.NET, Java, and JavaScript across
           production SaaS, microservices, and the occasional WordPress site. I like owning a
           feature end to end: schema to API to the thing a user actually clicks.
         </p>

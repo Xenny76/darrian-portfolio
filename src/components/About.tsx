@@ -32,7 +32,7 @@ export default function About() {
           <p>
             I&apos;ve shipped features in a production SaaS environment, tested and documented
             live API endpoints, and built out microservice architectures from scratch for
-            coursework capstones — appointment booking, catalog services, API gateways, the kind
+            coursework capstones: appointment booking, catalog services, API gateways. The kind
             of plumbing that has to actually hold together under real use, not just in a demo.
           </p>
         </div>
@@ -43,11 +43,11 @@ export default function About() {
               ["location", "Salt Lake City, UT"],
               ["focus", "Backend / Full-Stack Development"],
               ["availability", "Open to internship & entry-level roles"],
-              ["education", "Neumont University — BSCS, 4.0 GPA"],
+              ["education", "Neumont University, BSCS, 4.0 GPA"],
             ].map(([k, v]) => (
               <div key={k} className="flex gap-2">
-                <dt className="text-[var(--red)]">{k}</dt>
-                <dd className="text-[var(--text-muted)]">— {v}</dd>
+                <dt className="text-[var(--red)]">{k}:</dt>
+                <dd className="text-[var(--text-muted)]">{v}</dd>
               </div>
             ))}
             <div className="flex gap-2">

@@ -27,7 +27,7 @@ export const projects: Project[] = [
     slug: "realestate",
     title: "RealEstate",
     description:
-      "A microservices real-estate listing platform: appointment booking, catalog, identity/auth behind a Eureka service registry, notifications, an Ocelot API gateway, offers, and a viewing-cart service — all orchestrated with docker-compose across SQL Server, MongoDB, and Redis.",
+      "A microservices real-estate listing platform. Appointment booking, catalog, identity/auth behind a Eureka service registry, notifications, an Ocelot API gateway, offers, and a viewing-cart service, all orchestrated with docker-compose across SQL Server, MongoDB, and Redis.",
     tech: ["C#", "ASP.NET", "Java", "Spring Boot", "Python", "Docker", "SQL Server", "MongoDB", "Redis"],
     repoUrl: "https://github.com/Xenny76/RealEstate",
     status: "capstone",
@@ -37,7 +37,7 @@ export const projects: Project[] = [
     slug: "retro-video-game-exchange",
     title: "Retro Video Game Exchange",
     description:
-      "A Kubernetes-orchestrated microservices platform for trading retro games from a distributed systems course — load-tested with k6, autoscaled via HPA, with a full observability stack (Prometheus, Grafana, Loki).",
+      "A Kubernetes-orchestrated microservices platform for trading retro games, built for a distributed systems course. Load-tested with k6, autoscaled via HPA, with a full observability stack (Prometheus, Grafana, Loki).",
     tech: ["Kubernetes", "Docker", "Kafka", "Nginx", "Prometheus", "Grafana", "k6", "Python"],
     repoUrl: "https://github.com/Xenny76/retro_video_game_exchange",
     status: "capstone",
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     slug: "ignibench-engine-simulator",
     title: "IgniBench Engine Simulator",
     description:
-      "Generates a 3D engine from parameterized variables and runs a fluid + combustion simulation to predict torque, horsepower, efficiency, and thermal behavior.",
+      "Generates a 3D engine from parameterized variables and runs a fluid and combustion simulation to predict torque, horsepower, efficiency, and thermal behavior.",
     tech: ["C#", ".NET"],
     repoUrl: "https://github.com/Xenny76/IgniBench-Engine-Simulator",
     status: "solo",
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     slug: "enginelab",
     title: "EngineLab",
     description:
-      "Senior capstone: a .NET MAUI Blazor Hybrid app that models engine setups from parameterized specifications and renders simulated performance curves via ScottPlot for interactive comparison.",
+      "Senior capstone. A .NET MAUI Blazor Hybrid app that models engine setups from parameterized specifications and renders simulated performance curves via ScottPlot for interactive comparison.",
     tech: ["C#", ".NET MAUI", "Blazor Hybrid", "ScottPlot"],
     repoUrl: "https://github.com/Xenny76/EngineLab",
     status: "capstone",
@@ -77,7 +77,7 @@ export const projects: Project[] = [
     slug: "db-persistence-exploration",
     title: "Simple Persistence, Four Backends",
     description:
-      "The same employee/people persistence layer implemented from scratch, then re-implemented against MongoDB, Neo4j (with a bulk CSV import), and Redis to compare how each backend's data model shapes the same problem.",
+      "The same employee/people persistence layer, implemented from scratch and then re-implemented against MongoDB, Neo4j (with a bulk CSV import), and Redis, to see how each backend's data model shapes the same problem.",
     tech: ["Java", "MongoDB", "Neo4j", "Redis", "Maven"],
     repoUrl: "https://github.com/Xenny76/db-persistence-exploration",
     status: "coursework",
@@ -87,7 +87,7 @@ export const projects: Project[] = [
     slug: "rsa-implementation",
     title: "RSA From Scratch",
     description:
-      "RSA key generation using the Rabin-Miller primality test, plus a working encryption/decryption cipher — used to exchange real encrypted messages with classmates.",
+      "RSA key generation using the Rabin-Miller primality test, plus a working encryption/decryption cipher. Used it to exchange real encrypted messages with classmates.",
     tech: ["Python"],
     repoUrl: "https://github.com/Xenny76/rsa-implementation",
     status: "coursework",
@@ -107,7 +107,7 @@ export const projects: Project[] = [
     slug: "carblazor",
     title: "CarBlazor",
     description:
-      "A three-project solution — CarAPI backend, CarBlazor Server UI, and a shared CarLib model library — demonstrating a layered ASP.NET/Blazor architecture.",
+      "A three-project solution: CarAPI backend, CarBlazor Server UI, and a shared CarLib model library, demonstrating a layered ASP.NET/Blazor architecture.",
     tech: ["C#", "ASP.NET", "Blazor"],
     repoUrl: "https://github.com/Xenny76/CarBlazor",
     status: "coursework",
@@ -147,7 +147,7 @@ export const projects: Project[] = [
     slug: "early-java-games",
     title: "Pong, Shooter & Simon",
     description:
-      "Three early Java Swing games. Shooter is the standout — a small custom engine (collision, RNG, keyboard input, window abstraction) driving a vertical space shooter with enemies and explosions.",
+      "Three early Java Swing games. Shooter is the standout: a small custom engine (collision, RNG, keyboard input, window abstraction) driving a vertical space shooter with enemies and explosions.",
     tech: ["Java", "Swing"],
     repoUrl: "https://github.com/Xenny76/early-java-games",
     status: "early",
@@ -167,19 +167,19 @@ export const projects: Project[] = [
     slug: "portfolio-v1",
     title: "Portfolio v1",
     description:
-      "My first personal portfolio site — a Command Prompt–themed terminal hero built with Next.js. Superseded by this site.",
+      "My first personal portfolio site: a Command Prompt-themed terminal hero built with Next.js. Superseded by this site.",
     tech: ["Next.js", "JavaScript"],
     repoUrl: "https://github.com/Xenny76/MultimediaRhetoricPortfolio",
     status: "personal",
     statusLabel: "superseded",
   },
 
-  // Team projects — GitHub repo owned by a teammate, credited accordingly.
+  // Team projects. GitHub repo owned by a teammate, credited accordingly.
   {
     slug: "website-game-launcher",
     title: "Website Game Launcher",
     description:
-      "An interactive web gaming portal with custom idle games and a points-based economy, built as a team sprint project.",
+      "A web gaming portal with custom idle games and a points-based economy.",
     tech: ["Node.js", "Express", "JavaScript"],
     repoUrl: "https://github.com/tristancable/WebsiteGameLauncher",
     status: "team",
@@ -190,7 +190,7 @@ export const projects: Project[] = [
     slug: "blep-blip-blop",
     title: "Blep Blip Blop",
     description:
-      "A goal tracker and planner with a calendar view for upcoming goals and configurable visibility levels, built as a team sprint project.",
+      "A goal tracker and planner with a calendar view for upcoming goals and configurable visibility levels.",
     tech: ["Vue.js", "Node.js"],
     repoUrl: "https://github.com/tristancable/BlepBlipBlop",
     status: "team",
@@ -201,7 +201,7 @@ export const projects: Project[] = [
     slug: "notes-plus-plus",
     title: "Notes++",
     description:
-      "A cross-platform, user-friendly note-taking app with folders, favoriting, and preset text formatting, built as a team project.",
+      "A cross-platform note-taking app with folders, favoriting, and preset text formatting.",
     tech: ["C#", ".NET MAUI", "Blazor Hybrid"],
     repoUrl: "https://github.com/tristancable/NotesPlusPlus",
     status: "team",
@@ -210,9 +210,8 @@ export const projects: Project[] = [
   },
   {
     slug: "biscuit",
-    title: "Biscuit — Digit Recognizer",
-    description:
-      "An AI-powered desktop app that identifies handwritten numbers in real time, built as a team project.",
+    title: "Biscuit: Digit Recognizer",
+    description: "A desktop app that identifies handwritten numbers in real time.",
     tech: ["C#", ".NET MAUI", "Machine Learning"],
     repoUrl: "https://github.com/tristancable/Biscuit",
     status: "team",
@@ -222,8 +221,7 @@ export const projects: Project[] = [
   {
     slug: "uno-project",
     title: "UNO",
-    description:
-      "A full UNO card game implementation with house rules and action cards, built as a team project.",
+    description: "A full UNO card game implementation with house rules and action cards.",
     tech: ["Java"],
     repoUrl: "https://github.com/MasterDash5/UnoProject",
     status: "team",
@@ -234,7 +232,7 @@ export const projects: Project[] = [
     slug: "puzzletd",
     title: "PuzzleTD",
     description:
-      "A tower-defense game where players strategically place shape-based towers to stop waves of enemies, built as a team project in Unity.",
+      "A Unity tower-defense game where players place shape-based towers to stop waves of enemies.",
     tech: ["Unity", "C#"],
     repoUrl: "https://github.com/Ezeklaw404/PuzzleTD",
     status: "team",
@@ -245,7 +243,7 @@ export const projects: Project[] = [
     slug: "automarket-watch",
     title: "AutoMarket Watch",
     description:
-      "A full-stack automotive market tracking platform for enthusiasts to track vehicle valuations, curate watchlists, and connect with collectors, built as a team project.",
+      "A full-stack automotive market tracking platform for enthusiasts to track vehicle valuations, curate watchlists, and connect with collectors.",
     tech: ["React", "Node.js", "MongoDB", "JWT"],
     repoUrl: "https://github.com/tristancable/AutoMarketWatch",
     status: "team",
@@ -256,7 +254,7 @@ export const projects: Project[] = [
     slug: "choose-your-own-adventure",
     title: "Choose Your Own Adventure",
     description:
-      "An interactive narrative web app built for a collaborative and interpersonal communications course, built as a team project.",
+      "An interactive narrative web app built for a collaborative and interpersonal communications course.",
     tech: ["Next.js", "React", "Tailwind CSS"],
     repoUrl:
       "https://github.com/Neumont-VictorKeeler/Collaborative-and-Interpersonal-communications-Group-2",
