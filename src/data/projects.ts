@@ -132,7 +132,6 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/Xenny76/CSC_360_Kata",
     status: "coursework",
     statusLabel: "coursework",
-    private: true,
   },
   {
     slug: "csc360-final",
