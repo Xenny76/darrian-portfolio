@@ -24,7 +24,7 @@ export default function About() {
       <div className="grid gap-8 sm:grid-cols-[1.4fr_1fr]">
         <div className="flex flex-col gap-4 text-[var(--text-muted)]">
           <p>
-            I&apos;m a Computer Science student at Neumont University (BSCS, 4.0 GPA) who builds
+            I&apos;m a Computer Science graduate of Neumont University (BSCS, 4.0 GPA) who builds
             full-stack software with a backend lean. Most of my recent work is C#/.NET, but I move
             comfortably across Java, Python, and JavaScript depending on what the problem actually
             calls for.
@@ -42,7 +42,7 @@ export default function About() {
             {[
               ["location", "Salt Lake City, UT"],
               ["focus", "Backend / Full-Stack Development"],
-              ["availability", "Open to internship & entry-level roles"],
+              ["availability", "Open to entry-level roles"],
               ["education", "Neumont University, BSCS, 4.0 GPA"],
             ].map(([k, v]) => (
               <div key={k} className="flex gap-2">

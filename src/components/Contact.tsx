@@ -15,7 +15,7 @@ export default function Contact() {
   return (
     <Section id="contact" eyebrow="// 04. contact" title="Contact">
       <p className="max-w-xl text-[var(--text-muted)]">
-        Open to internship and entry-level backend/full-stack roles. Have a project in mind or
+        Open to entry-level backend/full-stack roles. Have a project in mind or
         just want to say hi? My inbox is open.
       </p>
       <ul className="mt-6 flex flex-col gap-3 font-mono text-sm">
