@@ -14,10 +14,26 @@ const jetbrains = JetBrains_Mono({
   weight: ["400", "500", "600"],
 });
 
+const title = "Darrian Redford | Software Engineer";
+const description =
+  "Software engineer building backend systems, APIs, and full-stack tools in C#/.NET, Java, and JavaScript.";
+
 export const metadata: Metadata = {
-  title: "Darrian Redford | Software Engineer",
-  description:
-    "Software engineer building backend systems, APIs, and full-stack tools in C#/.NET, Java, and JavaScript.",
+  metadataBase: new URL("https://darrian-redford.vercel.app"),
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    url: "/",
+    siteName: "Darrian Redford",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
