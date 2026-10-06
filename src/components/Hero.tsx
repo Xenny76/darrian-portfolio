@@ -116,7 +116,7 @@ function CommandPromptWindow() {
         </div>
         <div>
           <span className="rounded-[2px] bg-[var(--cyan)] px-1.5 py-0.5 text-[#021012]">OPEN</span>{" "}
-          <span className="text-[#7a7a7a]">actively looking for internship/entry-level roles</span>
+          <span className="text-[#7a7a7a]">actively looking for entry-level roles</span>
         </div>
         <div className="mt-1.5">
           <span>C:\Users\Guest&gt;</span>
